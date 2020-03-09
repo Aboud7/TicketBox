@@ -6,13 +6,12 @@ import android.view.View;
 import android.view.ViewGroup;
 import android.widget.ImageView;
 import android.widget.LinearLayout;
-import android.widget.TextView;
 
 import androidx.annotation.NonNull;
 import androidx.viewpager.widget.PagerAdapter;
 
 public class CustomAdapter extends PagerAdapter {
-    private int [] image_resource = {R.drawable.k,R.drawable.k,R.drawable.k};
+    private int [] image_resource = {R.drawable.football,R.drawable.football2,R.drawable.stadium};
     private Context context;
     private LayoutInflater layoutInflater;
     public CustomAdapter (Context context){
@@ -34,9 +33,7 @@ public class CustomAdapter extends PagerAdapter {
         layoutInflater = (LayoutInflater) context.getSystemService(Context.LAYOUT_INFLATER_SERVICE);
         View view= layoutInflater.inflate(R.layout.swipe_layout,container,false);
         ImageView imageView = view.findViewById(R.id.image);
-        TextView textView= view.findViewById(R.id.text);
         imageView.setImageResource(image_resource[position]);
-        textView.setText("image : " + (position+1) );
         container.addView(view);
         return view;
     }

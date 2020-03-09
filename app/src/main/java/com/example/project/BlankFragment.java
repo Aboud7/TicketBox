@@ -26,9 +26,6 @@ public class BlankFragment extends Fragment {
                              Bundle savedInstanceState) {
         // Inflate the layout for this fragment
         View view =  inflater.inflate(R.layout.fragment_blank, container, false);
-        textView = view.findViewById(R.id.ho);
-        String message = getArguments().getString("message");
-        textView.setText(message);
         return view;
     }
 

@@ -6,6 +6,10 @@
         android:icon="@drawable/ic_account_circle_black_24dp"
         android:title="Profile" />
     <item
+        android:id="@+id/nav_events"
+        android:icon="@drawable/ic_event_black_24dp"
+        android:title="Events" />
+    <item
         android:id="@+id/nav_tickets"
         android:icon="@drawable/ic_description_black_24dp"
         android:title="Tickets"/>

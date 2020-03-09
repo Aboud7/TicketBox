@@ -18,7 +18,6 @@ public class Main2Activity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main2);
         getSupportActionBar().setDisplayHomeAsUpEnabled(true);
-
         getSupportActionBar().setTitle("SignIn");
         textView1 = findViewById(R.id.text5);
         textView2 = findViewById(R.id.text7);

@@ -38,6 +38,10 @@ public class Profile_Interface extends AppCompatActivity {
                         startActivity(new Intent(getApplicationContext(), Tickets_Interface.class));
                         overridePendingTransition(0,0);
                         return true;
+                    case R.id.nav_events:
+                        startActivity(new Intent(getApplicationContext(), MainInterface.class));
+                        overridePendingTransition(0,0);
+                        return true;
                 }
                 return false;
             }

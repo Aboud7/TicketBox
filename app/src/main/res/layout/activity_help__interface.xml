@@ -12,7 +12,7 @@
         android:layout_alignParentBottom="true"
         app:menu="@menu/bottom_navigation"
         android:id="@+id/bottom_nav"
-        android:background="@color/test"
+        android:background="@color/pressed_bg"
         />
     <ScrollView
         android:layout_width="match_parent"
